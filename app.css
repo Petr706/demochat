@@ -11,10 +11,14 @@ header {
 #messages {
     margin-left: 1.5em;
     list-style: none;
+    position: relative;
+    margin-bottom:5em;
 }
 
 #form {
     display: flex;
+    position:fixed;
+    bottom:0;
 }
 
 input, label {
@@ -31,10 +35,25 @@ input {
     font-size: 1.5em;
     font-family: 'Consolas', monospace;
     flex: 1;
+    width:100%;
 }
 
 label {
     display: block;
     padding: 1em .5em;
     font-size: 1.5em;
+}
+ul {
+    width:60%;
+}
+
+li {
+    word-break: break-all;
+    margin-top: .5em;
+}
+
+img {
+    width: 200px;
+    height:200px;
+    background-image: url('loading.gif');
 }
