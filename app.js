@@ -60,5 +60,4 @@ ws.onopen = () => {
         console.log(e)
     });
 }
-ws.onclose = () => setStatus('OFFLINE')
 ws.onmessage = response => printMessage(response.data)
