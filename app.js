@@ -45,9 +45,9 @@ function loadRecentMsgs() {
 setInterval(loadRecentMsgs, 500)
 ws.onopen = () => {
     (async () => {
-        let test = await fetch('http://localhost:3333/messages?page=1')
-        let abc = await test.json()
-        abc = abc.reverse()
+        let response = await fetch('http://localhost:3333/messages?page=1')
+        let responseObject = await response.json()
+        responseObject = responseObject.reverse()
         for (const el of abc) {
             printMessage(el.text)
         }
