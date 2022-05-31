@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
-        <title>Тестовый Веб-Чат</title>
-        <link rel="stylesheet" href="./app.css">
-    </head>
 
-    <body>
-        <header>
-            <h1>TEST</h1>
-            <span id="status">OFFLINE</span>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
+    <title>Тестовый Веб-Чат</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
 
-        <main>
-            <ul id="messages"></ul>
+<body>
+    <header>
+        <h1>Basic webchat by Petr Podolskiy</h1>
+    </header>
+    <main id="main">
+        <ul id="messages"></ul>
+        <form id="form">
+            <label for="message" id="sbmt_btn">></label>
+            <input type="text" id="input" required autofocus autocomplete="off">
+        </form>
+    </main>
 
-            <form id="form">
-                <label for="message">></label>
-                <input type="text" id="input" required autofocus autocomplete="off">
-            </form>
-        </main>
+    <script type="module" src="app.js"></script>
+</body>
 
-        <script src="app.js"></script>
-    </body>
 </html>
