@@ -1,5 +1,5 @@
-<h1>Web chat with basic functionality on Node.js & Websocket.</h1>
-<img src="https://i.ibb.co/HPrFbV6/image.png">
+<h1>Web chat with basic functionality on Node.js</h1>
+<img src="https://i.ibb.co/fFVPdH6/Screenshot-1.png">
 <h3>This webchat was created for my portfolio, but you can use it as a basis for your project, I won't mind;)</h3>
 <h2>Setup</h2>
 <ul>
@@ -8,16 +8,13 @@
   <pre>
   <code>
     git clone https://github.com/Petr706/demochat.git
-    npm i http-server -g
+    npm i express
     npm i ws
+    npm i mongodb
     node server.js
   </code>
   </pre>
-  Then open new terminal and run this command :<br/>
-  <pre>
-  <code>http-server</code>
-  </pre>
-  <li>Step 3 : Open browser and go to <a href="http://localhost:8080">link</a></li>
+  <li>Step 3 : Open browser and go to <a href="http://localhost:3333">link</a></li>
 </ul>
 <h2>Author</h2>
 <h4>Petr Podolskiy</h4>
