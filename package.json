@@ -1,7 +1,26 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "http": "^0.0.1-security",
     "http-server": "^14.1.0",
+    "mongodb": "^4.6.0",
     "ws": "^8.6.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "chat",
+  "version": "2.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petr706/webchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Petr706/webchat/issues"
+  },
+  "homepage": "https://github.com/Petr706/webchat#readme",
+  "description": ""
 }
